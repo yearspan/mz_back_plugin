@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/services.dart';
 
 class MzBackPlugin {
@@ -5,6 +7,8 @@ class MzBackPlugin {
       const MethodChannel('mz_back_plugin');
 
   static void navigateToSystemHome() {
-    _channel.invokeMethod("navigateToSystemHome");
+    if (Platform.isAndroid) {
+      _channel.invokeMethod("navigateToSystemHome");
+    }
   }
 }
