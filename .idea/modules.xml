@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mz_back_plugin.iml" filepath="$PROJECT_DIR$/mz_back_plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/mz_back_plugin_android.iml" filepath="$PROJECT_DIR$/android/mz_back_plugin_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/mz_back_plugin_example_android.iml" filepath="$PROJECT_DIR$/example/android/mz_back_plugin_example_android.iml" />
+    </modules>
+  </component>
+</project>
