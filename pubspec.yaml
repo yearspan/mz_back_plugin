@@ -1,6 +1,6 @@
 name: mz_back_plugin
 description: A Flutter plugin about Android device Exit.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/1691665955/mz_back_plugin
 
 environment:

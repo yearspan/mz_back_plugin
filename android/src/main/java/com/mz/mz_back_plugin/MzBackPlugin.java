@@ -29,7 +29,7 @@ public class MzBackPlugin implements FlutterPlugin, MethodCallHandler, ActivityA
     if (call.method.equals("getPlatformVersion")) {
       result.success("Android " + android.os.Build.VERSION.RELEASE);
     } else if (call.method.equals("navigateToSystemHome")) {
-      activity.moveTaskToBack(false);
+      activity.moveTaskToBack(true);
     } else {
       result.notImplemented();
     }
